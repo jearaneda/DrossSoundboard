@@ -1,0 +1,398 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondooriginal"
+    android:screenOrientation="portrait"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    tools:context=".MainActivity" >
+    
+      <com.google.android.gms.ads.AdView
+          android:id="@+id/adView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          ads:adSize="SMART_BANNER"
+          ads:adUnitId="ca-app-pub-9511923808549097/3847201564" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollview"
+         android:layout_below="@+id/adView"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/gaste"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+                
+                android:text="@string/gaste" />
+
+            <Button
+                android:id="@+id/cono"
+                android:onClick="clickHandler"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2"
+                android:background="@drawable/botonverde"
+                
+                android:text="@string/cono" />
+
+            <Button
+                android:id="@+id/razones"
+                android:onClick="clickHandler"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2"
+                android:background="@drawable/botonverde"
+                
+                android:text="@string/razones" />
+
+            <Button
+                android:id="@+id/prosti"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2"
+                android:background="@drawable/botonverde"
+                
+                android:text="@string/prosti" />
+
+            <Button
+                android:id="@+id/retraso"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2"
+                android:background="@drawable/botonverde"
+                
+                android:text="@string/retraso" />
+
+            <Button
+                android:id="@+id/cero"
+                android:onClick="clickHandler"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2"
+                android:background="@drawable/botonverde"
+                
+                android:text="@string/cero"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/vagina"
+                android:onClick="clickHandler"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+                
+                android:text="@string/imperio"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/obama"
+                android:onClick="clickHandler"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+                
+                android:text="@string/obama"
+                android:textSize="16sp" />
+
+            <Button
+                 android:id="@+id/verga"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+               
+                android:text="@string/verga" />
+
+            <Button
+                android:id="@+id/mierda"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+               
+                android:text="@string/mierda" />
+
+            <Button
+                android:id="@+id/aliens"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+          
+                android:text="@string/aliens"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/risa"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+    
+                android:text="@string/risa" />
+
+            <Button
+                android:id="@+id/conodelamadre"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+     
+                android:text="@string/conodelamadre"
+                android:textSize="15sp" />
+            
+                        <Button
+                android:id="@+id/avemariaputisima"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+     
+                android:text="Ave maria putisima" />
+                        
+                                                <Button
+                android:id="@+id/badgame"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+
+                android:text="Bad Game" />
+                                                  <Button
+                android:id="@+id/boladevidrio"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+
+                android:text="Bola de vidrio" />       
+                                                                  <Button
+                android:id="@+id/bomba"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+                android:text="Bomba atomica" />      
+                
+               <Button
+                android:id="@+id/huevon"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="clickHandler"
+                android:background="@drawable/botonverde"
+                android:text="Cabeza de huevo" />           
+                
+                              <Button
+                android:id="@+id/chupamela"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde"
+                android:text="Chupamela" />
+                
+                                           <Button
+                android:id="@+id/conovale"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:text="Coño vale"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />
+              <Button
+                android:id="@+id/drossapreta"
+                android:onClick="clickHandler"
+                android:layout_width="350dp"
+                android:text="Dross apreta culo"
+                android:layout_height="87dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />
+                            <Button
+                android:id="@+id/drossjuegaeluno"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:text="Juega el Uno"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />
+                            
+                                                        <Button
+                android:id="@+id/bolivia"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:text="Ejercito de Bolivia"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />
+                                                        
+                                                             <Button
+                android:id="@+id/ntremasmamas"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:text="Entre mas me lo mamas"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />                                                
+              
+  <Button
+                android:id="@+id/jodete"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:text="Jodete"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />    
+                
+    <Button
+                android:id="@+id/guerramalvinas"
+                android:onClick="clickHandler"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:text="Guerra malvinas"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" /> 
+                    <Button
+                android:id="@+id/putapario"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:text="La puta que te pario"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />       
+                                   <Button
+                android:id="@+id/malditarealidad"
+                android:onClick="clickHandler"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:text="Maldita Realidad"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />   
+                
+                <Button
+                android:id="@+id/masticanpija"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:text="Mastican pija"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />     
+                 <Button
+                android:id="@+id/cagodios"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:text="Me cago en dios y me sobra mierda"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />    
+                
+                                  <Button
+                android:id="@+id/mueveteesclavo"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:text="Muevete esclavo"
+                android:onClick="clickHandler"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />    
+                
+         <Button
+                android:id="@+id/negro"
+                android:layout_width="350dp"
+                android:onClick="clickHandler"
+                android:layout_height="87dp"
+                android:text="Negro"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />    
+                
+                  <Button
+                android:id="@+id/putosdemierda"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:text="Putos de mierda"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />    
+                
+              <Button
+                android:id="@+id/semeteneseno"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:text="Se meten por el culo"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />    
+                
+                            <Button
+                android:id="@+id/susto"
+                android:layout_width="350dp"
+                android:layout_height="93dp"
+                android:onClick="clickHandler"
+                android:text="Susto"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />    
+                
+                                                        <Button
+                android:id="@+id/upa"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:text="Upa"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />    
+          
+    <Button
+                android:id="@+id/verdad"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:text="Verdad"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />    
+                                                            
+        <Button
+                android:id="@+id/vergaparate"
+                android:layout_width="350dp"
+                android:layout_height="87dp"
+                android:onClick="clickHandler"
+                android:text="Verga Parate"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/botonverde" />    
+                                                            
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

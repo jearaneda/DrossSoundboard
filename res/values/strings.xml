@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dross Soundboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cargando">Cargandooooooooooooooooooooooooooo</string>
+    <string name="cono">Coño</string>
+    <string name="conooooo">Coñoooooo</string>
+    <string name="jodete">Jodete</string>
+    <string name="conodelamadre">Coño de la madre</string>
+    <string name="razones">Ciento Trece Razones</string>
+    <string name="risa">Risa</string>
+    <string name="gaste">Gaste un poder</string>
+    <string name="verga">Verga</string>
+    <string name="mierda">¡Mierda!</string>
+    <string name="negro">Negrooo</string>
+    <string name="culo">Te Meten por el culo</string>
+    <string name="retraso">Retrasado Mental</string>
+    <string name="prosti">Prostibularia Sucia</string>
+    <string name="aliens">Extraterrestres</string>
+    <string name="cero">Total, CERO!</string>
+    <string name="imperio">Imperio de la Vagina</string>
+    <string name="obama">Maldito Obama</string>
+    <string name="bolivia">Ejército de Bolivia</string>
+    <string name="putos">Putos de mierda</string>
+    <string name="next">Siguiente</string>
+    <string name="mas">Más sonidos proximamente</string>
+    <string name="vergaparate">Verga, parate</string>
+
+</resources>
